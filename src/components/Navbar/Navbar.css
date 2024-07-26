@@ -1,0 +1,8 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar-Links{
+    text-decoration: none;
+}
