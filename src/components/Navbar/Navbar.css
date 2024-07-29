@@ -2,7 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #0a0909;
+    padding: .625rem 1.25rem;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
 }
 .navBar-Links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: .9375rem;
+}
+.navBar-Links, li, a{
     text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.navBar-Links :hover{
+    color: green;
 }
