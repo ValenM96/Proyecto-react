@@ -74,3 +74,4 @@ return (
 };
 
 export default ProductItem;
+export { imageMap };
