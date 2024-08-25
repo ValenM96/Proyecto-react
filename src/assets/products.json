@@ -25,7 +25,7 @@
     "category": "Macallan",
     "subCategory": "Single Malt Scotch",
     "bestseller": true,
-    "image": "./macallanRare.webp",
+    "image": "./18.1.webp",
     "description": "Macallan Sherry Oak - 18 Años",
     "price": 249.99
   },
@@ -35,7 +35,7 @@
     "category": "Glenfiddich",
     "subCategory": "Single Malt Scotch",
     "bestseller": false,
-    "image": "./glenfiddich.18.webp",
+    "image": "./15años.webp",
     "description": "Glenfiddich 15 Años Solera Reserve",
     "price": 59.99
   },
@@ -45,7 +45,7 @@
     "category": "Chivas Regal",
     "subCategory": "Blended Scotch",
     "bestseller": true,
-    "image": "./vat.01.webp",
+    "image": "./Chivas12años.webp",
     "description": "Chivas Regal 12 Años",
     "price": 39.99
   },
@@ -75,7 +75,7 @@
     "category": "Macallan",
     "subCategory": "Single Malt Scotch",
     "bestseller": false,
-    "image": "./18.1.webp",
+    "image": "./12.3.webp",
     "description": "Macallan Double Cask - 12 Años",
     "price": 64.99
   },
@@ -95,7 +95,7 @@
     "category": "Chivas Regal",
     "subCategory": "Blended Scotch",
     "bestseller": false,
-    "image": "./vat.02.webp",
+    "image": "./ChivasExtra.webp",
     "description": "Chivas Regal Extra 13 Años",
     "price": 49.99
   },
@@ -145,7 +145,7 @@
     "category": "Chivas Regal",
     "subCategory": "Blended Scotch",
     "bestseller": false,
-    "image": "./15años.webp",
+    "image": "./chivasRegal18.webp",
     "description": "Chivas Regal 18 Años",
     "price": 79.99
   },
@@ -175,7 +175,7 @@
     "category": "Macallan",
     "subCategory": "Single Malt Scotch",
     "bestseller": false,
-    "image": "./12.3.webp",
+    "image": "./macallanFine.webp",
     "description": "Macallan Fine Oak - 12 Años",
     "price": 84.99
   },
@@ -185,7 +185,7 @@
     "category": "Glenfiddich",
     "subCategory": "Single Malt Scotch",
     "bestseller": false,
-    "image": "./12años.webp",
+    "image": "./glenfiddichFire.webp",
     "description": "Glenfiddich Fire & Cane",
     "price": 54.99
   },
@@ -195,7 +195,7 @@
     "category": "Chivas Regal",
     "subCategory": "Blended Scotch",
     "bestseller": false,
-    "image": "./12años.webp",
+    "image": "./chivasRegalUltis.webp",
     "description": "Chivas Regal Ultis",
     "price": 199.99
   },
@@ -215,7 +215,7 @@
     "category": "Jack Daniels",
     "subCategory": "Tennessee Whiskey",
     "bestseller": false,
-    "image": "./jackApple.webp",
+    "image": "./jackDanielsSinatra.webp",
     "description": "Jack Daniel's Sinatra Select",
     "price": 169.99
   },
@@ -225,7 +225,7 @@
     "category": "Macallan",
     "subCategory": "Single Malt Scotch",
     "bestseller": false,
-    "image": "./12.2.webp",
+    "image": "./macallanEdition6.webp",
     "description": "Macallan Edition No. 6",
     "price": 129.99
   },
@@ -235,7 +235,7 @@
     "category": "Glenfiddich",
     "subCategory": "Single Malt Scotch",
     "bestseller": false,
-    "image": "./15años.webp",
+    "image": "./glenfiddichIpa.webp",
     "description": "Glenfiddich IPA Experiment",
     "price": 64.99
   },
@@ -245,7 +245,7 @@
     "category": "Chivas Regal",
     "subCategory": "Blended Scotch",
     "bestseller": false,
-    "image": "./12años.webp",
+    "image": "./chivasRegalMizura.webp",
     "description": "Chivas Regal Mizunara",
     "price": 59.99
   },
@@ -255,7 +255,7 @@
     "category": "Johnnie Walker",
     "subCategory": "Blended Scotch",
     "bestseller": false,
-    "image": "./dobleBlack.webp",
+    "image": "./Swing.webp",
     "description": "Johnnie Walker Swing",
     "price": 84.99
   }
