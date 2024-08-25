@@ -22,7 +22,6 @@ const Product = () => {
     if (!productsLoaded) return;
 
     const id = parseInt(productId, 10);
-
     const foundProduct = products.find((item) => item._id === id);
 
     if (foundProduct) {
@@ -38,25 +37,10 @@ const Product = () => {
   return (
     <div className="border-t-2 pt-10 transition-opacity ease-in duration-500 opacity-100">
       <div className="flex gap-12 flex-col sm:flex-row">
-        <div className="flex-1 flex flex-col-reverse gap-3 sm:flex-row">
-          <div className="flex flex-wrap sm:flex-col gap-3 sm:gap-3 sm:w-[20%] w-full overflow-auto">
-            {productData.images && productData.images.length > 0 ? (
-              productData.images.map((img, index) => (
-                <img
-                  key={index}
-                  src={imageMap[img] || ''}
-                  className="w-[30%] sm:w-full cursor-pointer border rounded-lg"
-                  alt={`Image ${index + 1}`}
-                  onClick={() => setImage(imageMap[img] || '')}
-                />
-              ))
-            ) : (
-              <p>No images available</p>
-            )}
-          </div>
-          <div className="flex-1">
-            <img className="w-full h-auto border rounded-lg" src={image} alt={productData.name} />
-          </div>
+        <div className="flex-1">
+        <div className="w-3/4 border rounded-lg flex items-center justify-center bg-white">
+          <img className="max-w-full max-h-full object-contain" src={image} alt={productData.name}/>
+        </div>
         </div>
 
         <div className="flex-1">
@@ -74,7 +58,7 @@ const Product = () => {
           </div>
           <p className="mt-5 text-3xl font-medium">{currency}{productData.price}</p>
           <p className="my-5 text-gray-500 md:w-4/5">{productData.description}</p>
-          <button onClick={()=>addToCart(productData._id)} className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700">ADD TO CART</button>
+          <button onClick={() => addToCart(productData._id)} className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700">ADD TO CART</button>
           <hr className="mt-8 sm:w-4/5" />
           <div className="text-sm text-gray-500 mt-5 flex flex-col gap-1">
             <p>100% Original product.</p>

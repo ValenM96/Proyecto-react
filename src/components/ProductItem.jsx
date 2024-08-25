@@ -57,20 +57,22 @@ const imageMap = {
 };
 
 const ProductItem = ({ id, image, name, price }) => {
-const { currency } = useContext(ShopContext);
+    const { currency } = useContext(ShopContext);
+    const imgSrc = imageMap[image] || blackLabel;
 
-
-const imgSrc = imageMap[image] || blackLabel;
-
-return (
-    <Link className='text-gray-700 cursor-pointer' to={`/product/${id}`}>
-        <div className='overflow-hidden'>
-            <img className='hover:scale-110 transition ease-in-out' src={imgSrc} alt={name} />
-        </div>
-        <p className='pt-3 pb-1 text-sm'>{name}</p>
-        <p className='text-sm font-medium'>{currency}{price}</p>
-    </Link>
-);
+    return (
+        <Link className='text-gray-700 cursor-pointer' to={`/product/${id}`}>
+            <div className='w-full h-80 bg-white overflow-hidden flex items-center justify-center'>
+                <img
+                    className='w-full h-full object-contain transition-transform duration-300 ease-in-out hover:scale-110'
+                    src={imgSrc}
+                    alt={name}
+                />
+            </div>
+            <p className='pt-3 pb-1 text-sm'>{name}</p>
+            <p className='text-sm font-medium'>{currency}{price}</p>
+        </Link>
+    );
 };
 
 export default ProductItem;

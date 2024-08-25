@@ -2,7 +2,8 @@
   {
     "_id": 1,
     "name": "Johnnie Walker Black Label",
-    "category": "Whisky Escocés",
+    "category": "Johnnie Walker",
+    "subCategory": "Blended Scotch",
     "bestseller": true,
     "image": "./blackLabel.webp",
     "description": "Johnnie Walker Black Label - 12 Años",
@@ -11,7 +12,8 @@
   {
     "_id": 2,
     "name": "Jack Daniel's Old No. 7",
-    "category": "Whisky Americano",
+    "category": "Jack Daniels",
+    "subCategory": "Tennessee Whiskey",
     "bestseller": true,
     "image": "./jackDaniels.webp",
     "description": "Jack Daniel's Old No. 7 Tennessee Whiskey",
@@ -20,7 +22,8 @@
   {
     "_id": 3,
     "name": "Macallan Sherry Oak",
-    "category": "Whisky Escocés",
+    "category": "Macallan",
+    "subCategory": "Single Malt Scotch",
     "bestseller": true,
     "image": "./macallanRare.webp",
     "description": "Macallan Sherry Oak - 18 Años",
@@ -29,7 +32,8 @@
   {
     "_id": 4,
     "name": "Glenfiddich Solera Reserve",
-    "category": "Whisky Escocés",
+    "category": "Glenfiddich",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./glenfiddich.18.webp",
     "description": "Glenfiddich 15 Años Solera Reserve",
@@ -38,7 +42,8 @@
   {
     "_id": 5,
     "name": "Chivas Regal 12 Años",
-    "category": "Whisky Escocés",
+    "category": "Chivas Regal",
+    "subCategory": "Blended Scotch",
     "bestseller": true,
     "image": "./vat.01.webp",
     "description": "Chivas Regal 12 Años",
@@ -47,7 +52,8 @@
   {
     "_id": 6,
     "name": "Johnnie Walker Blue Label",
-    "category": "Whisky Escocés",
+    "category": "Johnnie Walker",
+    "subCategory": "Blended Scotch",
     "bestseller": true,
     "image": "./blueLabel.webp",
     "description": "Johnnie Walker Blue Label",
@@ -56,7 +62,8 @@
   {
     "_id": 7,
     "name": "Jack Daniel's Single Barrel Select",
-    "category": "Whisky Americano",
+    "category": "Jack Daniels",
+    "subCategory": "Tennessee Whiskey",
     "bestseller": false,
     "image": "./jackSingle.webp",
     "description": "Jack Daniel's Single Barrel Select",
@@ -65,7 +72,8 @@
   {
     "_id": 8,
     "name": "Macallan Double Cask",
-    "category": "Whisky Escocés",
+    "category": "Macallan",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./18.1.webp",
     "description": "Macallan Double Cask - 12 Años",
@@ -74,7 +82,8 @@
   {
     "_id": 9,
     "name": "Glenfiddich 18 Años",
-    "category": "Whisky Escocés",
+    "category": "Glenfiddich",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./glenfiddich.18.webp",
     "description": "Glenfiddich 18 Años",
@@ -83,7 +92,8 @@
   {
     "_id": 10,
     "name": "Chivas Regal Extra 13 Años",
-    "category": "Whisky Escocés",
+    "category": "Chivas Regal",
+    "subCategory": "Blended Scotch",
     "bestseller": false,
     "image": "./vat.02.webp",
     "description": "Chivas Regal Extra 13 Años",
@@ -92,7 +102,8 @@
   {
     "_id": 11,
     "name": "Johnnie Walker Gold Label Reserve",
-    "category": "Whisky Escocés",
+    "category": "Johnnie Walker",
+    "subCategory": "Blended Scotch",
     "bestseller": true,
     "image": "./goldLabel.webp",
     "description": "Johnnie Walker Gold Label Reserve",
@@ -101,7 +112,8 @@
   {
     "_id": 12,
     "name": "Jack Daniel's Honey",
-    "category": "Whisky Americano",
+    "category": "Jack Daniels",
+    "subCategory": "Tennessee Whiskey",
     "bestseller": false,
     "image": "./jackHoney.webp",
     "description": "Jack Daniel's Honey Tennessee Whiskey",
@@ -110,7 +122,8 @@
   {
     "_id": 13,
     "name": "Macallan Rare Cask",
-    "category": "Whisky Escocés",
+    "category": "Macallan",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./macallanRare.webp",
     "description": "Macallan Rare Cask",
@@ -119,7 +132,8 @@
   {
     "_id": 14,
     "name": "Glenfiddich 21 Años Reserva",
-    "category": "Whisky Escocés",
+    "category": "Glenfiddich",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./21años.webp",
     "description": "Glenfiddich 21 Años Reserva",
@@ -128,7 +142,8 @@
   {
     "_id": 15,
     "name": "Chivas Regal 18 Años",
-    "category": "Whisky Escocés",
+    "category": "Chivas Regal",
+    "subCategory": "Blended Scotch",
     "bestseller": false,
     "image": "./15años.webp",
     "description": "Chivas Regal 18 Años",
@@ -137,7 +152,8 @@
   {
     "_id": 16,
     "name": "Johnnie Walker Red Label",
-    "category": "Whisky Escocés",
+    "category": "Johnnie Walker",
+    "subCategory": "Blended Scotch",
     "bestseller": true,
     "image": "./redLabel.webp",
     "description": "Johnnie Walker Red Label",
@@ -146,7 +162,8 @@
   {
     "_id": 17,
     "name": "Jack Daniel's Gentleman Jack",
-    "category": "Whisky Americano",
+    "category": "Jack Daniels",
+    "subCategory": "Tennessee Whiskey",
     "bestseller": false,
     "image": "./Gentleman.webp",
     "description": "Jack Daniel's Gentleman Jack",
@@ -155,7 +172,8 @@
   {
     "_id": 18,
     "name": "Macallan Fine Oak",
-    "category": "Whisky Escocés",
+    "category": "Macallan",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./12.3.webp",
     "description": "Macallan Fine Oak - 12 Años",
@@ -164,7 +182,8 @@
   {
     "_id": 19,
     "name": "Glenfiddich Fire & Cane",
-    "category": "Whisky Escocés",
+    "category": "Glenfiddich",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./12años.webp",
     "description": "Glenfiddich Fire & Cane",
@@ -173,7 +192,8 @@
   {
     "_id": 20,
     "name": "Chivas Regal Ultis",
-    "category": "Whisky Escocés",
+    "category": "Chivas Regal",
+    "subCategory": "Blended Scotch",
     "bestseller": false,
     "image": "./12años.webp",
     "description": "Chivas Regal Ultis",
@@ -182,7 +202,8 @@
   {
     "_id": 21,
     "name": "Johnnie Walker Green Label",
-    "category": "Whisky Escocés",
+    "category": "Johnnie Walker",
+    "subCategory": "Blended Scotch",
     "bestseller": false,
     "image": "./greenLabel.webp",
     "description": "Johnnie Walker Green Label",
@@ -191,7 +212,8 @@
   {
     "_id": 22,
     "name": "Jack Daniel's Sinatra Select",
-    "category": "Whisky Americano",
+    "category": "Jack Daniels",
+    "subCategory": "Tennessee Whiskey",
     "bestseller": false,
     "image": "./jackApple.webp",
     "description": "Jack Daniel's Sinatra Select",
@@ -200,7 +222,8 @@
   {
     "_id": 23,
     "name": "Macallan Edition No. 6",
-    "category": "Whisky Escocés",
+    "category": "Macallan",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./12.2.webp",
     "description": "Macallan Edition No. 6",
@@ -209,7 +232,8 @@
   {
     "_id": 24,
     "name": "Glenfiddich IPA Experiment",
-    "category": "Whisky Escocés",
+    "category": "Glenfiddich",
+    "subCategory": "Single Malt Scotch",
     "bestseller": false,
     "image": "./15años.webp",
     "description": "Glenfiddich IPA Experiment",
@@ -218,7 +242,8 @@
   {
     "_id": 25,
     "name": "Chivas Regal Mizunara",
-    "category": "Whisky Escocés",
+    "category": "Chivas Regal",
+    "subCategory": "Blended Scotch",
     "bestseller": false,
     "image": "./12años.webp",
     "description": "Chivas Regal Mizunara",
@@ -227,7 +252,8 @@
   {
     "_id": 26,
     "name": "Johnnie Walker Swing",
-    "category": "Whisky Escocés",
+    "category": "Johnnie Walker",
+    "subCategory": "Blended Scotch",
     "bestseller": false,
     "image": "./dobleBlack.webp",
     "description": "Johnnie Walker Swing",
