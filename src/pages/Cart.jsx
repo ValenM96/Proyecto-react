@@ -20,8 +20,6 @@ const Cart = () => {
         });
       }
     }
-    console.log('Cart Items:', cartItems); // Verifica los datos aquí
-    console.log('Products:', products); // Verifica los datos aquí
     setCartData(tempData);
   }, [cartItems, products]);
   
@@ -45,8 +43,6 @@ const Cart = () => {
             }
 
             const imageSrc = imageMap[productData.image] || '';
-            console.log('Image Map:', imageMap); // Verifica los datos aquí
-
 
             return (
               <div key={index} className='py-4 border-t border-b text-gray-700 grid grid-cols-[4fr_0.5fr_0.5fr] sm:grid-cols-[4fr_2fr_0.5fr] items-center gap-4'>

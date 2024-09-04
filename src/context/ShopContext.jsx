@@ -16,22 +16,19 @@ const ShopContextProvider = (props) => {
 
     useEffect(() => {
         const fetchProducts = async () => {
-        const productsCollection = collection(db, "products");
-        const productsSnapshot = await getDocs(productsCollection);
-        const productsList = productsSnapshot.docs.map(doc => {
-            const data = doc.data();
-            return { id: doc.id, ...data };
-        });
-          console.log('Fetched Products:', productsList); // Verifica los datos aquí
-        setProducts(productsList);
+            const productsCollection = collection(db, "products");
+            const productsSnapshot = await getDocs(productsCollection);
+            const productsList = productsSnapshot.docs.map(doc => {
+                const data = doc.data();
+                return { id: doc.id, ...data };
+            });
+            setProducts(productsList);
         };
     
         fetchProducts();
     }, []);
-    
 
     const addToCart = (itemId) => {
-        console.log('Adding to cart, Item ID:', itemId); // Verificar el ID aquí
         setCartItems((prevCartItems) => {
             const updatedCart = { ...prevCartItems };
             if (updatedCart[itemId]) {
@@ -54,7 +51,6 @@ const ShopContextProvider = (props) => {
     };
 
     const updateQuantity = async (itemId, quantity) => {
-        console.log('Updating quantity, Item ID:', itemId, 'Quantity:', quantity); // Verificar los valores aquí
         let cartData = structuredClone(cartItems);
         cartData[itemId] = quantity;
         setCartItems(cartData);

@@ -56,7 +56,7 @@ const Product = () => {
           </div>
           <p className="mt-5 text-3xl font-medium">{currency}{productData.price}</p>
           <p className="my-5 text-gray-500 md:w-4/5">{productData.description}</p>
-          <button onClick={() => addToCart(productData.id)} className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700">ADD TO CART</button>
+          <button onClick={() => addToCart(productId)} className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700">ADD TO CART</button>
           <hr className="mt-8 sm:w-4/5" />
           <div className="text-sm text-gray-500 mt-5 flex flex-col gap-1">
             <p>100% Original product.</p>
@@ -76,8 +76,7 @@ const Product = () => {
           <p>Quisquam deserunt, repellat itaque cumque tempore praesentium, quae amet, voluptatum doloribus esse mollitia pariatur excepturi dolorum.</p>
         </div>
       </section>
-
-      <RelatedProducts />
+      <RelatedProducts category={productData.category} />
     </div>
   );
 };
