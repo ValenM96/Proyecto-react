@@ -35,7 +35,7 @@ const Navbar = () => {
             </ul>
 
             <div className='flex items-center gap-6'>
-                <img onClick={()=>setShowSearch(true)} src={search} className='w-5 cursor-pointer' alt="Search" />
+                <Link to='/collection'><img onClick={()=>setShowSearch(true)} src={search} className='w-5 cursor-pointer' alt="Search" /></Link>
 
                 <div className='relative group'>
                     <Link to='/login'><img className='w-5 cursor-pointer' src={loginIcon} alt="Login" /></Link>
